@@ -4,6 +4,7 @@
 ############ Script Credit ################
 # This script is forked from http://blog.secaserver.com/2013/04/centos-install-nagios-simple-way/
 ### Script updated by Hasan T. Emdad <h.t.emdad@gmail.com>
+### Date: 12-July-2014 ####################
  
 # Disable SElinux
 sed -i.bak 's#SELINUX=enforcing#SELINUX=disabled#g' /etc/selinux/config
